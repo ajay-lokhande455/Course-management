@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>addCourse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- Insert Course -->
+<section>
+    <form id="insertForm" action="addCourse" method="post">
+    <h2>Insert Course</h2>
+        <br>
+        <label for="name">Course Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter course name" required>
+        <label for="description">Course Description</label>
+        <input type="text" id="description" name="description" placeholder="Enter course description" required>
+        <label for="duration">Course Duration</label>
+        <input type="text" id="duration" name="duration" placeholder="Enter course duration" required>
+        <label for="fees">Course Fees</label>
+        <input type="number" id="fees" name="fees" placeholder="Enter course fees" required>
+        <button type="submit" value="Add Course">Insert Course</button>
+    </form>
+</section>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>edit detail</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section>
+    <form id="updateForm" action="editCourse" method="get">
+    <h2>Update Course</h2>
+        <br>
+    <label for="id">Course ID</label>
+    <input type="text" id="id" name="id" placeholder="Enter course ID" required>
+    <label for="name">New Course Name</label>
+    <input type="text" id="name" name="name" placeholder="Enter new course name">
+    <label for="description">New Course Description</label>
+    <input type="text" id="description" name="description" placeholder="Enter new course description">
+    <label for="duration">New Course Duration </label>
+    <input type="text" id="duration" name="duration" placeholder="Enter new course duration">
+    <label for="fees">New Course Fees </label>
+    <input type="number" id="fees" name="fees" placeholder="Enter new course fees">
+    <button type="submit" value="Edit Course">Update Course</button>
+    </form>
+</section>
+</body>
+</html>
